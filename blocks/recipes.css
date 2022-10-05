@@ -47,7 +47,11 @@
   flex-direction: row;
   justify-content: center;
 
+  list-style: none;
+
 }
+
+
 
 .recipes__iframe {
   margin:40px;
