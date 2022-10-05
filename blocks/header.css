@@ -1,0 +1,151 @@
+/*---------------header---------------*/
+
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  min-height: 720px;
+  max-height: 800px;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 125px;
+  height: 142px;
+
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav__links {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+
+  margin-right: 80px;
+  margin-top: 30px;
+}
+
+.nav__link {
+  /*color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    */
+
+  color: #000000;
+  text-decoration: none;
+
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+}
+
+.header__title {
+  max-width: 729px;
+
+  /*
+    margin-top:104px;
+    margin-right:80px;
+    */
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 80px;
+  margin-left: 0px;
+
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+
+  /*display:inherit;*/
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+
+  color: #2f80ed;
+
+  display: inherit;
+}
+
+.header__description {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  max-width: 683px;
+
+  margin-top: 28px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+
+  position: absolute;
+
+  right: 5px;
+  top: 124px;
+}
+
+.header__paragraph {
+  margin: 0;
+  color: #838383;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  margin-bottom: -40px;
+}
+
+.header__hours {
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin-left: 40px;
+}
+
+.header__address {
+  list-style: none;
+
+  margin-right: 80px;
+}
