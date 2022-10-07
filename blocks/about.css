@@ -23,7 +23,7 @@
 
   color:white;
 
-  z-index: -1;
+  z-index: 0;
 
   overflow: hidden;
 
@@ -88,11 +88,18 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+
+  
+  margin-top: 0;
+  margin-bottom: 0;
+
 }
+
 
 .about__paragraph:last-child {
   margin-bottom: 0;
 }
+
 
 .about__circle {
   background-color: #2f80ed;
