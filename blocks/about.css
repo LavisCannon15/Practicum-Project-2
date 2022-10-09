@@ -1,32 +1,20 @@
-/*----------------about-------------------*/
-
 .about {
   background-color: #0a2750;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
-
-  /*
-  margin-top:119px;
-  margin-right:80px;
-  margin-bottom:173px;
-  */
-
-  
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 
-  
-  position:relative;
+  position: relative;
 
-  color:white;
+  color: white;
 
   z-index: 0;
 
   overflow: hidden;
-
 }
 
 .about__title {
@@ -38,48 +26,23 @@
 
   max-width: 251px;
 
-  /*
-  display:flex;
-  flex-direction:column;
-  */
-
-  /*
-  padding-top: 100px;
-  padding-left: 80px;
-  */
-  
-
-  
-  margin-top:100px;
-  margin-left:80px;
-  
-
-  z-index: 1;
-  
-
-  /*
   margin-top: 100px;
   margin-left: 80px;
-  */
 
-
-
+  z-index: 1;
 }
 
 .about__content {
   max-width: 660px;
 
-  display:flex;
-  flex-direction:column;
-  
+  display: flex;
+  flex-direction: column;
 
-  padding-top:119px;
-  padding-right:80px;
-  padding-bottom:173px;
+  padding-top: 119px;
+  padding-right: 80px;
+  padding-bottom: 173px;
 
   row-gap: 20px;
-
-
 }
 
 .about__paragraph {
@@ -89,17 +52,13 @@
   font-size: 20px;
   line-height: 30px;
 
-  
   margin-top: 0;
   margin-bottom: 0;
-
 }
-
 
 .about__paragraph:last-child {
   margin-bottom: 0;
 }
-
 
 .about__circle {
   background-color: #2f80ed;
@@ -107,21 +66,20 @@
   height: 426px;
   border-radius: 50%;
 
-  position:absolute;
+  position: absolute;
 
-  z-index:0;
-
-
+  z-index: 0;
 
   top: -152px;
   left: -129px;
-
 }
-
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out 0s infinite;
+
+  overflow: hidden;
 }
+
 @keyframes pulsate {
   0% {
     opacity: 0;
